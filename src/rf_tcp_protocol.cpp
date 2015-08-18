@@ -7,9 +7,14 @@
 //============================================================================
 
 #include <iostream>
+
+#include <stdint.h>
 using namespace std;
 
-int main() {
+#include "RingBuffer/RingBuffer.h"
+
+
+int32_t main() {
 	cout << "345" << endl; // prints 345
 	return 0;
 }
